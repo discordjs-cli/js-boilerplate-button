@@ -1,6 +1,6 @@
 module.exports = {
-    button_id: '%button_name%',
-    description: '%button_name% role button',
+    button_id: '%button_id%',
+    description: '%button_id% role button',
     async execute(interaction) {
         await interaction.deferReply({ ephemeral: true });
 
