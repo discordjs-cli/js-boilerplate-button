@@ -6,7 +6,7 @@ module.exports = {
 
         const member = interaction.message.guild.members.cache.get(interaction.user.id);
 
-        const role = '%role_id%';
+        const role = '%role_id%'; // Role ID to add/remove
         
         member.roles.cache.find((r) => r.id === `${role}`)
             ? member.roles
