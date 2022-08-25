@@ -43,6 +43,6 @@ module.exports = {
                               ephemeral: true,
                           });
                   });
-        return interaction.reply({ content: 'The %button_name% button was clicked!', ephemeral: false });
+        return interaction.reply({ content: 'The %button_id% button was clicked!', ephemeral: false });
     },
 };
